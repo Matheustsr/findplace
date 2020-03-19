@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fundo"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context="com.demotxt.droidsrce.homedashboard.Home">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="315dp"
+            android:layout_height="98dp"
+            android:background="@drawable/ecseulugar"
+            android:onClick="proximaTelamap"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="361dp"
+            android:layout_height="112dp"
+            android:background="@drawable/sobre"
+            android:onClick="proximaTela"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <Button
+            android:id="@+id/Suporte"
+            android:layout_width="335dp"
+            android:layout_height="107dp"
+            android:background="@drawable/suporte"
+            android:onClick="proximaTelasup" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
